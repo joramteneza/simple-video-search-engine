@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Add header content if needed -->
+    </header>
+
+    <main>
+      <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for videos" />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="results-container">
+        <ul id="results-list">
+          <!-- Search results will be dynamically added here -->
+        </ul>
+      </div>
+
+      <div id="pagination-container">
+        <button id="prev-button">Prev</button>
+        <button id="next-button">Next</button>
+      </div>
+    </main>
+
+    <div id="preview-overlay">
+      <!-- Video preview overlay content will be dynamically added here -->
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=16a1ce191795748fe"
+    ></script>
+    <div class="gcse-search"></div>
+  </body>
+</html>
